@@ -1,12 +1,73 @@
+.title {
+    background-color: white;
+    font-family: fantasy;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 25px;
+}
 
-/* 
+.list {
+    height: 700px;
+    width: 900px;
+    border: 2px solid black;
+    margin: auto;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow:
+        0 1px 1px rgba(0, 0, 0, 0.15),
+        0 10px 0 -5px #eee,
+        0 10px 1px -4px rgba(0, 0, 0, 0.15),
+        0 20px 0 -10px #eee,
+        0 20px 1px -9px rgba(0, 0, 0, 0.15);
 
-    You can write your own styles here...
+    padding: 30px;
+}
+
+.item_left {
+
+    font-size: 15px;
+    margin-block: 315px;
+    margin-left: -785px;
+    margin-top: 485px;
+}
+
+.items {
+    font-size: 15px;
+    margin-left: 25px;
+    float: left;
+    margin-top: 25px;
+    display: inline-flex;
+
+}
+
+ul li {
+    font-size: 30px;
     
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+    /*  cursor: pointer;
+    padding: 12px 8px 12px 40px;
+    transition: 0.2s; */
+
+}
+
+input {
+    width: 800px;
+    font-size: 50px;
+    border-top-color: white;
+    border-left-color: white;
+    border-bottom-color: light grey;
+    margin-top: 15px;
+
+
+}
+
+button {
+   
+    font-size: 25px;
+    position: fixed; 
+    margin-left: 575px; 
+    margin: auto;
+
+}
+
